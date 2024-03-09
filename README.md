@@ -1,3 +1,5 @@
+# https://www.freecodecamp.org/espanol/news/los-principios-solid-explicados-en-espanol/
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
