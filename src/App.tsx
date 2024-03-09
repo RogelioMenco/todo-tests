@@ -3,6 +3,7 @@ import "./App.css";
 import Title from "./components/Title";
 import Input from "./components/Input";
 import TaskContainer from "./components/TaskContainer";
+import UserRender from "./components/UserRenderer";
 
 export type ToDoTask = {
   id: string;
@@ -25,6 +26,7 @@ const App: FC = () => {
       <Title />
       <Input addTask={handleAddTask} />
       <TaskContainer tasks={tasks} deleteTask={handleDeleteTask} />
+      <UserRender />
     </>
   );
 };
